@@ -12,7 +12,16 @@
 
 
 ******************************/
-
+// $('html').addClass('preloader');
+$(window).on('load',function(){
+	$('html, body').animate({ scrollTop: 0 }, 'normal');
+	$('.preloader').addClass('complete');
+	$(".pre-img").fadeOut("slow", function() {
+		// will fade out the whole DIV that covers the website.
+		$(".preloader").delay(300).fadeOut("slow");
+	});
+	// $('html').removeClass('preloader');
+});
 $(document).ready(function()
 {
 	"use strict";
