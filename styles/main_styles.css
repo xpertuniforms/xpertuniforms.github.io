@@ -1351,6 +1351,7 @@ section
 	height: 100px;
 	animation: animate 2s linear infinite;
 	background: none;
+	z-index: 801;
 }
 .pre-img{
 	position: absolute;
