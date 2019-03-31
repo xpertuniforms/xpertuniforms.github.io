@@ -692,6 +692,7 @@ section
 {
 	border: solid 1px rgb(70, 70, 71);
 	margin-top: 44px;
+	
 }
 .home_button a
 {
@@ -795,6 +796,7 @@ section
 .about
 {
 	padding-top: 94px;
+	padding-bottom: 75px;
 	 background: #FFFFFF;
 }
 .about_container

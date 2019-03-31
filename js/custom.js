@@ -124,7 +124,8 @@ $(document).ready(function()
 			var gallery = $('.gallery_slider');
 			gallery.owlCarousel(
 			{
-				autoplay:true,
+				autoplay: true,
+				autoplayTimeout: 3000,
 				loop:true,
 				smartSpeed:1200,
 				nav:false,
